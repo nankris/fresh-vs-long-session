@@ -1,0 +1,3 @@
+cond,rep,tasks,passed,total_tokens,output_tokens,cache_creation,cache_read,est_cost,last_turn_prompt,wall_s
+long,1,10,10,920725,6692,30418,883555,0.5541,37615,108.4
+fresh,1,10,10,571180,5145,88929,477044,0.91,16503,97.1

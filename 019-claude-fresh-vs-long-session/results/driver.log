@@ -1,0 +1,22 @@
+fresh__N01_median__chain__r1: pass=True sub=(2, 14) tok=60584 cc=13330 cr=46694 out=554 cost=$0.1270828 turns=3 tools={'Bash': 2} wall=10s 5h=0.52 7d=0.7 
+long__N01_median__chain__r1: pass=True sub=(2, 14) tok=60709 cc=13360 cr=46736 out=607 cost=$0.12839119999999998 turns=3 tools={'Bash': 2} wall=11s 5h=0.52 7d=0.7 
+fresh__N02_duration__chain__r1: pass=True sub=(3, 14) tok=62080 cc=12399 cr=49218 out=457 cost=$0.1181996 turns=3 tools={'Bash': 2} wall=8s 5h=0.53 7d=0.7 
+long__N02_duration__chain__r1: pass=True sub=(3, 14) tok=73752 cc=3603 cr=69515 out=628 cost=$0.1837022 turns=3 tools={'Bash': 2} wall=10s 5h=0.53 7d=0.7 
+fresh__N03_csv__chain__r1: pass=True sub=(4, 14) tok=86138 cc=13078 cr=72035 out=1017 cost=$0.139403 turns=4 tools={'Bash': 3} wall=12s 5h=0.54 7d=0.7 
+long__N03_csv__chain__r1: pass=True sub=(4, 14) tok=109341 cc=2327 cr=105855 out=1151 cost=$0.24654120000000004 turns=5 tools={'Bash': 3, 'Edit': 1} wall=15s 5h=0.54 7d=0.7 
+fresh__T01_happy__chain__r1: pass=True sub=(5, 14) tok=51603 cc=7109 cr=44168 out=320 cost=$0.0721296 turns=3 tools={'Bash': 2} wall=7s 5h=0.54 7d=0.7 
+long__T01_happy__chain__r1: pass=True sub=(5, 14) tok=87609 cc=1551 cr=85597 out=455 cost=$0.2851926 turns=3 tools={'Bash': 2} wall=10s 5h=0.55 7d=0.7 
+fresh__T02_duplicate__chain__r1: pass=True sub=(6, 14) tok=52368 cc=7481 cr=44321 out=560 cost=$0.0799362 turns=4 tools={'Bash': 2, 'Edit': 1} wall=9s 5h=0.55 7d=0.7 
+long__T02_duplicate__chain__r1: pass=True sub=(6, 14) tok=92585 cc=1861 cr=89998 out=720 cost=$0.3325042 turns=4 tools={'Bash': 2, 'Edit': 1} wall=12s 5h=0.56 7d=0.7 
+fresh__T03_whitespace__chain__r1: pass=True sub=(7, 14) tok=51026 cc=6767 cr=43866 out=387 cost=$0.0706732 turns=3 tools={'Bash': 2} wall=11s 5h=0.56 7d=0.7 
+long__T03_whitespace__chain__r1: pass=True sub=(7, 14) tok=97673 cc=1522 cr=95566 out=579 cost=$0.3753974 turns=3 tools={'Bash': 2} wall=11s 5h=0.58 7d=0.7 
+fresh__T04_tabs__chain__r1: pass=True sub=(8, 14) tok=51640 cc=7122 cr=44152 out=360 cost=$0.0730304 turns=3 tools={'Bash': 2} wall=15s 5h=0.58 7d=0.7 
+long__T04_tabs__chain__r1: pass=True sub=(8, 14) tok=101939 cc=1401 cr=100064 out=468 cost=$0.4160022 turns=3 tools={'Bash': 2} wall=9s 5h=0.58 7d=0.7 
+fresh__T05_stale__chain__r1: pass=True sub=(8, 14) tok=51830 cc=7170 cr=44006 out=648 cost=$0.0791452 turns=3 tools={'Bash': 2} wall=10s 5h=0.59 7d=0.7 
+long__T05_stale__chain__r1: pass=True sub=(8, 14) tok=70490 cc=1043 cr=68792 out=651 cost=$0.4511406 turns=2 tools={'Bash': 1} wall=10s 5h=0.59 7d=0.7 
+fresh__T06_neardup__chain__r1: pass=True sub=(9, 14) tok=51869 cc=7208 cr=44297 out=358 cost=$0.07370739999999999 turns=3 tools={'Bash': 2} wall=8s 5h=0.6 7d=0.71 
+long__T06_neardup__chain__r1: pass=True sub=(9, 14) tok=110566 cc=1887 cr=108083 out=590 cost=$0.4996772 turns=3 tools={'Bash': 2} wall=10s 5h=0.61 7d=0.71 
+fresh__T07_multihunk__chain__r1: pass=True sub=(10, 14) tok=52042 cc=7265 cr=44287 out=484 cost=$0.0766814 turns=3 tools={'Bash': 2} wall=8s 5h=0.62 7d=0.71 
+CHAIN_DONE exp=/workspace/work/tig/019-claude-fresh-vs-long-session cond=fresh rep=1 session= SUMMARY 10/14 passing
+long__T07_multihunk__chain__r1: pass=True sub=(10, 14) tok=116061 cc=1863 cr=113349 out=843 cost=$0.554135 turns=3 tools={'Bash': 2} wall=11s 5h=0.62 7d=0.71 
+CHAIN_DONE exp=/workspace/work/tig/019-claude-fresh-vs-long-session cond=long rep=1 session=b286fb64-9649-4b83-a216-9ee5aba5d714 SUMMARY 10/14 passing
